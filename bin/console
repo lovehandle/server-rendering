@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler"
+Bundler.require :default
+require "irb"
+
+Dir.glob(
+  File.expand_path("./lib/**/*.rb")
+).map {|f| require(f) }
+
+IRB.start

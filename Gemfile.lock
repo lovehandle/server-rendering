@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    execjs (2.7.0)
+    libv8 (5.3.332.38.5)
+    mini_racer (0.1.9)
+      libv8 (~> 5.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  execjs
+  mini_racer
+
+BUNDLED WITH
+   1.13.6
